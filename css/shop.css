@@ -1,0 +1,76 @@
+#shop .tab {
+  display: flex;
+  justify-content: space-between;
+}
+#shop .tab li {
+  width: 47%;
+  padding: 15px;
+  border: 2px solid #121212;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+#shop .tab li.active {
+  background-color: #121212;
+  color: #fff;
+  padding-bottom: 25px;
+  margin-bottom: 0;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#shop .content {
+  border: 2px solid #121212;
+  padding: 15px;
+}
+#shop .content .list li {
+  margin-bottom: 20px;
+}
+#shop .content .list li h3 {
+  margin-top: 10px;
+}
+#shop .content .list li ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#shop .content .list li ul li {
+  width: 48%;
+}
+#shop .content .list li ul li p {
+  font-size: 14px;
+}
+#shop .content .list li ul li .title {
+  font-weight: bold;
+}
+#shop .content .list li ul li .openclose {
+  font-size: 12px;
+}
+#shop .floor .button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+#shop .floor .button li {
+  width: 31%;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid #121212;
+  text-align: center;
+}
+#shop .category .button {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+#shop .category .button li {
+  width: 48.25%;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #121212;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 35px;
+}/*# sourceMappingURL=shop.css.map */

@@ -1,0 +1,30 @@
+#facility ul li {
+  margin-bottom: 50px;
+}
+#facility ul li h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#facility ul li h2 img {
+  width: 50px;
+  margin-right: 10px;
+}
+#facility ul li h2 p {
+  font-size: 20px;
+}
+#facility ul li p {
+  font-size: 14px;
+}
+#facility ul li .text {
+  padding: 10px 0;
+}
+#facility ul li .place {
+  padding-top: 5px;
+  border-top: 2px dotted #121212;
+}
+#facility ul li .place span {
+  padding: 0 5px;
+  background-color: #121212;
+  color: #fff;
+}/*# sourceMappingURL=facility.css.map */

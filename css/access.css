@@ -1,0 +1,25 @@
+#access .googlemap {
+  margin-bottom: 60px;
+}
+#access .googlemap iframe {
+  width: 100%;
+  height: 450px;
+}
+#access ul li {
+  margin-bottom: 50px;
+}
+#access ul li h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted #121212;
+  margin-bottom: 10px;
+}
+#access ul li h2 img {
+  width: 50px;
+  margin-right: 10px;
+}
+#access ul li h2 p {
+  font-size: 20px;
+}/*# sourceMappingURL=access.css.map */

@@ -1,0 +1,77 @@
+@charset "UTF-8";
+.tel, .form {
+  margin-bottom: 50px;
+}
+.tel h2, .form h2 {
+  margin-bottom: 20px;
+}
+
+.tel p {
+  font-size: 14px;
+}
+.tel .content {
+  display: flex;
+  align-items: center;
+  border: 4px double #ccc;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.tel .content img {
+  height: 36px;
+  margin-right: 10px;
+}
+.tel .content p {
+  font-size: 36px;
+}
+
+.form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.form label::before {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #fff;
+  border-radius: 12px;
+  height: 24px;
+  width: 50px;
+  text-align: center;
+  margin-right: 5px;
+}
+.form label.req::before {
+  content: "必須";
+  background-color: #ff420e;
+}
+.form label.opt::before {
+  content: "任意";
+  background-color: #80bd9e;
+}
+.form input, .form select, .form textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.form input::-moz-placeholder, .form select::-moz-placeholder, .form textarea::-moz-placeholder {
+  color: #ccc;
+}
+.form input::placeholder, .form select::placeholder, .form textarea::placeholder {
+  color: #ccc;
+}
+.form .submit input {
+  display: block;
+  width: 200px;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #121212;
+  color: #fff;
+  border: none;
+  position: relative;
+}/*# sourceMappingURL=contact.css.map */
